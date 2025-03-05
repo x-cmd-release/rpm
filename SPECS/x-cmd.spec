@@ -7,7 +7,7 @@ BuildArch:      noarch
 License:        AGPL-3.0
 URL:            https://www.x-cmd.com
 
-Source0:        https://raw.githubusercontent.com/%{name}/release/main/dist/%{version}/allinone.tgz
+Source0:        %{name}-%{version}.tgz
 
 Requires:       curl
 
