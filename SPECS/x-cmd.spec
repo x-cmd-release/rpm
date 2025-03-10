@@ -4,10 +4,10 @@ Release:        1%{?dist}
 Summary:        Bootstrap 1000+ command line tools in seconds
 BuildArch:      noarch
 
-License:        AGPL-3.0
+License:        AGPL-3.0-only
 URL:            https://www.x-cmd.com
 
-Source0:        https://raw.githubusercontent.com/%{name}/release/main/dist/%{version}/allinone.tgz
+Source0:        %{name}-%{version}.tgz
 
 Requires:       curl
 
